@@ -1,0 +1,15 @@
+QUESTION:
+Write a blog on HTTP1 VS HTTP2
+
+Hyper text transfer protocol is a protocol to send or transfer the requested data and fetch the response from the server.
+It sents request from the client side, process it, and get response from server to the client.
+The first usable version of HTTP was created in 1997.This first version of HTTP was called HTTP/1.1.
+As usgae of INTERNET increased extensilvely, http1 was struggling met existing demands.
+One of the major shortcomings of http1 is handling only request at a time. For example,a web page may contains several elements
+like a header,picture,text etc. If one of the requests got blocked or delayed,it may affect the loading of the entire page.
+Another is security reliablity.
+On addressing all the shortcomings,In 2015 http2 was introduced.compared to the previous version http2 was very much fast,reliable
+and can priortize clients deamnds. It can take multiple responses from client side at a time,and with single TCP connection
+it proccess and produces response.This enables the user to access a web page effectively,even while using low-bandwidth connection.
+While loading heavy web pages,it can priotrize which need to be loaded first and which needed to be loaded in next steps.
+This allows the user to an interrupted web experience.

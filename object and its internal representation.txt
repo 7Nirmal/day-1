@@ -1,0 +1,14 @@
+QUESTION:
+write a blog on object and its internal representation in js.
+
+Objects And Its Internal Representation In JavaScript
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. 
+Objects may contain any combination of these primitive data-types as well as reference data-types.
+The data are stored in the object in "key:value" method.The value can be accessed by using the key.
+These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+A property of an object can be explained as a variable that is attached to the object. 
+Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects. 
+The properties of an object define the characteristics of the object. You access the properties of an object with a simple dot-notation:
+objectName.propertyName
+Like all JavaScript variables, both the object name (which could be a normal variable) and property name are case sensitive. 
+You can define a property by assigning it a value.
